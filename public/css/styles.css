@@ -31,3 +31,6 @@ p strong{
     color: red;
     text-transform: uppercase;
 }
+img{
+    width: 300px;
+}
