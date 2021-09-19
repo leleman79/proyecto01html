@@ -61,6 +61,7 @@ body {
     .main-navbar {
         display: flex;
         justify-content: space-between;
+        font-weight: 700;
     }
     .main-navbar ul {
         display: flex;
@@ -70,4 +71,33 @@ body {
         margin: 0 5px;
 
     }
+}
+@media (min-width: 1200px) {
+    .header-top-bar, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+        font-weight: 700;
+    }
+    .header-top-bar{
+        align-items: center;
+    }
+
+    .logo{
+        width: 300px;
+    }
+    .main-navbar{
+        margin-top: 35px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .copy-bar {
+        max-width: none;
+        font-size: 22px;
+    }
+
+    
 }
