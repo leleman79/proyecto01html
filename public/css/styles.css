@@ -25,8 +25,8 @@ body {
     width: 200px;
 }
 
-.copy-header {
-    font-weight: 300;
+.copy-bar {
+    font-weight: bold;
     text-align: center;
 }
 .main-navbar {
@@ -44,6 +44,36 @@ body {
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
+}
+.create-formulario {
+    font-weight: bold;
+    padding: 20px 15px;
+}
+.control-formulario {
+    margin-bottom: 15px;
+}
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+.control {
+    width: 100%;
+    padding: 8px;
+}
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boton-formulario {
+    width: 100px;
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
 }
 
 @media (min-width: 768px) {

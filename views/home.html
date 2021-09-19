@@ -40,9 +40,49 @@
                 <li><a href="#"> Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
-
-
 </header>
+<!-- Formulario -->
+<form action="/crear-priducto" method="POST" class="create-formulario">
+     <div class="control-formulario">
+        <label for="nombre">Nombre del producto:</label>
+        <input type="text" id="nombre" name="nombre" class="control">
+    </div>
+     <div class="control-formulario">
+        <label for="precio">Precio:</label>
+        <input type="text" id="precio" name="precio" class="control">
+    </div>
+     <div class="control-formulario">
+        <label for="cat">Categoría</label>
+        <select name="categoria" id="cat" class="control">
+            <option value="hogar">Hogar</option>
+            <option value="electro">Electro</option>
+            <option value="indumenteria">Indumentaria</option>
+        </select>
+    </div>
+     <div class="control-formulario">
+        <label for="ciudad ">ciudad</label>
+        <select name="categoria" id="ciudad" class="control">
+            <option value="bsas">Buenos Aires</option>
+            <option value="ros">Rosario</option>
+            <option value="mdz">Mendoza</option>
+        </select>
+    </div>
+     <div class="control-formulario">
+        <label for="desc">Descripción:</label>
+        <textarea name="descripcion" id="desc" class="control"></textarea>
+    </div>
+     <div class="control-formulario">
+        <label for="oferta">Está en oferta:</label>
+        <input type="radio" id="oferta" name="oferta" >
+    </div>
+    <div class="botones">
+        <button type="reset"class="boton-formulario">Borrar</button>
+        <button type="submit"class="boton-formulario">Guardar</button>
+    </div>
+    
+
+
+</form>
    
 
 
